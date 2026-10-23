@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" width="100%" height="100%" role="img" aria-labelledby="heroVisualTitle heroVisualDesc">
+  <title id="heroVisualTitle">Syed Aqdas - Data Analysis and Web Development Visual</title>
+  <desc id="heroVisualDesc">A modern tech illustration featuring an initials monogram, data visualization charts, and web code elements.</desc>
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <!-- Soft Shadows -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Ambient background glow behind visual -->
+  <circle cx="260" cy="220" r="160" fill="url(#accentGlow)" filter="url(#softGlow)" />
+
+  <!-- Outer Decorative Ring / Orbit -->
+  <circle cx="260" cy="220" r="190" fill="none" stroke="url(#primaryGrad)" stroke-width="1.5" stroke-dasharray="8 8" opacity="0.3" />
+  <circle cx="260" cy="220" r="140" fill="none" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4 6" opacity="0.25" />
+
+  <!-- Center Main Card (Glassmorphic) -->
+  <g filter="url(#dropShadow)">
+    <rect x="130" y="80" width="260" height="280" rx="24" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+    
+    <!-- Card Header / Mac-style dots -->
+    <circle cx="160" cy="108" r="4.5" fill="#ef4444" opacity="0.8" />
+    <circle cx="176" cy="108" r="4.5" fill="#f59e0b" opacity="0.8" />
+    <circle cx="192" cy="108" r="4.5" fill="#10b981" opacity="0.8" />
+    <rect x="225" y="102" width="135" height="12" rx="6" fill="#334155" opacity="0.6" />
+
+    <!-- Center Monogram Emblem -->
+    <circle cx="260" cy="190" r="48" fill="#090d16" stroke="url(#primaryGrad)" stroke-width="2.5" />
+    <text x="260" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" fill="url(#primaryGrad)" text-anchor="middle" letter-spacing="-1">SA</text>
+    
+    <!-- Code / Data Subtitle within card -->
+    <text x="260" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="1.5">DATA &amp; WEB DEV</text>
+    
+    <!-- Sparkline inside card -->
+    <path d="M 160 300 Q 185 285 210 295 T 260 280 T 310 292 T 360 275" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="360" cy="275" r="4" fill="#06b6d4" />
+  </g>
+
+  <!-- Floating Badge 1: Data Analytics Bar Chart (Top Left) -->
+  <g filter="url(#dropShadow)">
+    <rect x="35" y="120" width="130" height="95" rx="16" fill="#1e293b" stroke="rgba(255,255,255,0.12)" stroke-width="1.2" />
+    <text x="50" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#cbd5e1">DATA INSIGHTS</text>
+    <!-- Bar charts -->
+    <rect x="52" y="180" width="12" height="20" rx="3" fill="#3b82f6" opacity="0.7" />
+    <rect x="70" y="165" width="12" height="35" rx="3" fill="#6366f1" opacity="0.8" />
+    <rect x="88" y="155" width="12" height="45" rx="3" fill="url(#barGrad)" />
+    <rect x="106" y="170" width="12" height="30" rx="3" fill="#06b6d4" opacity="0.85" />
+    <rect x="124" y="160" width="12" height="40" rx="3" fill="#10b981" opacity="0.9" />
+  </g>
+
+  <!-- Floating Badge 2: Web Code Tag (Bottom Left) -->
+  <g filter="url(#dropShadow)">
+    <rect x="55" y="270" width="125" height="65" rx="14" fill="#0f172a" stroke="rgba(139, 92, 246, 0.35)" stroke-width="1.2" />
+    <circle cx="75" cy="302" r="12" fill="#8b5cf6" fill-opacity="0.2" />
+    <text x="75" y="307" font-family="monospace" font-size="12" font-weight="700" fill="#a78bfa" text-anchor="middle">&lt;/&gt;</text>
+    <text x="96" y="297" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#f1f5f9">Clean Code</text>
+    <text x="96" y="313" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#94a3b8">HTML • CSS • JS</text>
+  </g>
+
+  <!-- Floating Badge 3: SQL & Database (Top Right) -->
+  <g filter="url(#dropShadow)">
+    <rect x="360" y="100" width="125" height="70" rx="14" fill="#0f172a" stroke="rgba(6, 182, 212, 0.35)" stroke-width="1.2" />
+    <!-- Cylinder / DB icon -->
+    <ellipse cx="385" cy="125" rx="12" ry="4.5" fill="#06b6d4" opacity="0.8" />
+    <path d="M 373 125 v 15 a 12 4.5 0 0 0 24 0 v -15" fill="none" stroke="#06b6d4" stroke-width="1.5" />
+    <path d="M 373 133 a 12 4.5 0 0 0 24 0" fill="none" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="406" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">SQL Queries</text>
+    <text x="406" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#94a3b8">Filtering &amp; Joins</text>
+  </g>
+
+  <!-- Floating Badge 4: Tech Enthusiast Indicator (Bottom Right) -->
+  <g filter="url(#dropShadow)">
+    <rect x="350" y="255" width="135" height="75" rx="16" fill="#1e293b" stroke="rgba(255,255,255,0.12)" stroke-width="1.2" />
+    <circle cx="376" cy="292" r="14" fill="#10b981" fill-opacity="0.15" />
+    <circle cx="376" cy="292" r="5" fill="#10b981" />
+    <text x="398" y="287" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Continuous</text>
+    <text x="398" y="303" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#10b981">Learning &amp; Growth</text>
+  </g>
+
+  <!-- Orbit nodes & connection dots -->
+  <circle cx="210" cy="65" r="4" fill="#8b5cf6" />
+  <circle cx="320" cy="385" r="5" fill="#3b82f6" />
+  <circle cx="450" cy="210" r="3.5" fill="#06b6d4" />
+  <circle cx="80" cy="235" r="3.5" fill="#a855f7" />
+</svg>

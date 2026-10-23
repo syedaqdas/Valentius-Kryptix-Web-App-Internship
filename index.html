@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Aqdas | Aspiring Data Analyst &amp; Web Developer</title>
+  <meta name="description" content="Personal portfolio of Syed Aqdas — Aspiring Data Analyst and Web Developer showcasing projects in web development, data analysis, and SQL. Built for Valentius Kryptix Internship WA-1.">
+  <meta name="author" content="Syed Aqdas">
+  <meta name="theme-color" content="#090d16">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Syed Aqdas | Portfolio">
+  <meta property="og:description" content="Aspiring Data Analyst | Web Developer | Technology Enthusiast. Explore my projects and technical skills.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip to Content Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#home" class="brand-logo" aria-label="Syed Aqdas - Home">
+        <span class="logo-badge" aria-hidden="true">SA</span>
+        <span class="logo-text">Syed Aqdas</span>
+      </a>
+
+      <!-- Desktop Navigation & Mobile Drawer -->
+      <nav class="navbar" id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-cta">
+          <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        </div>
+      </nav>
+
+      <!-- Header Actions (Theme Toggle, CTA, Mobile Menu Trigger) -->
+      <div class="header-actions">
+        <!-- Optional Clean Theme Toggle (Dark / Light) -->
+        <button id="theme-toggle" class="icon-btn theme-toggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-outline btn-connect-desktop">Let's Connect</a>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="nav-toggle" class="hamburger-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+          <span class="hamburger-line" aria-hidden="true"></span>
+          <span class="hamburger-line" aria-hidden="true"></span>
+          <span class="hamburger-line" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <!-- Main Content Container -->
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <!-- Subtle Decorative Background Elements (CSS / Vector) -->
+      <div class="hero-bg-glow hero-bg-glow-1" aria-hidden="true"></div>
+      <div class="hero-bg-glow hero-bg-glow-2" aria-hidden="true"></div>
+      <div class="hero-grid-pattern" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="hero-badge">HELLO, I'M</span>
+          </div>
+          <h1 class="hero-title">Syed Aqdas</h1>
+          <p class="hero-headline">Aspiring Data Analyst &amp; Web Developer</p>
+          <p class="hero-description">
+            I enjoy turning data into meaningful insights and building clean, user-friendly digital experiences. I'm continuously learning, solving problems, and developing projects that strengthen my technical skills.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Highlight Badges -->
+          <div class="hero-highlights">
+            <div class="highlight-pill">
+              <span class="pill-dot"></span>
+              <span>Clean Code</span>
+            </div>
+            <div class="highlight-pill">
+              <span class="pill-dot"></span>
+              <span>Data-Driven Insights</span>
+            </div>
+            <div class="highlight-pill">
+              <span class="pill-dot"></span>
+              <span>Continuous Growth</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Column -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-visual-frame">
+            <img src="assets/hero-visual.svg" alt="Syed Aqdas tech illustration depicting data visualization, code structures, and SA monogram badge" class="hero-visual-img" width="520" height="440" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            I am an aspiring technology professional with a strong interest in data analysis, web development, and continuous learning. I love connecting analytical reasoning with modern web interfaces.
+          </p>
+        </div>
+
+        <!-- 3 Core Philosophy Cards -->
+        <div class="about-cards-grid">
+          <!-- Card 1: Problem Solving -->
+          <article class="info-card">
+            <div class="card-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Problem Solving</h3>
+            <p class="card-text">
+              Breaking down complex problems into clear, logical steps. Whether querying structured databases, troubleshooting UI edge-cases, or debugging JavaScript logic, I approach challenges with patience and analytical rigor.
+            </p>
+          </article>
+
+          <!-- Card 2: Continuous Learning -->
+          <article class="info-card">
+            <div class="card-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Continuous Learning</h3>
+            <p class="card-text">
+              Technology evolves rapidly, and I stay curious by consistently learning modern web standards, expanding my Python and SQL toolkit, and reading documentation to build resilient and scalable solutions.
+            </p>
+          </article>
+
+          <!-- Card 3: Building Projects -->
+          <article class="info-card">
+            <div class="card-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="card-title">Building Projects</h3>
+            <p class="card-text">
+              Transforming theoretical concepts into functional software. I take pride in crafting clean, accessible user experiences and structuring data pipelines that solve practical problems and deliver real-world clarity.
+            </p>
+          </article>
+        </div>
+
+        <!-- Compact Personal Info Area with Clearly Labeled Placeholders -->
+        <div class="personal-info-card">
+          <div class="personal-info-header">
+            <h3 class="personal-info-title">Personal Information &amp; Status</h3>
+            <span class="placeholder-notice" title="Editable placeholders for your actual details">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              Editable Placeholders
+            </span>
+          </div>
+
+          <div class="personal-info-grid">
+            <!-- Education Placeholder -->
+            <div class="info-row">
+              <div class="info-label">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                <span>Education:</span>
+              </div>
+              <!-- Placeholder: Replace with your actual degree, university, and graduation year -->
+              <div class="info-value">
+                <span class="placeholder-tag">[Degree / Field of Study, University Name — Expected Year]</span>
+              </div>
+            </div>
+
+            <!-- Current Learning Focus Placeholder -->
+            <div class="info-row">
+              <div class="info-label">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Current Learning Focus:</span>
+              </div>
+              <!-- Placeholder: Replace with your specific learning topics -->
+              <div class="info-value">
+                <span class="placeholder-tag">[e.g., Advanced SQL Queries, Python for Data Science, Modern Web Standards]</span>
+              </div>
+            </div>
+
+            <!-- Location Placeholder -->
+            <div class="info-row">
+              <div class="info-label">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Location:</span>
+              </div>
+              <!-- Placeholder: Replace with your actual city/country -->
+              <div class="info-value">
+                <span class="placeholder-tag">[City, Country / Open to Remote]</span>
+              </div>
+            </div>
+
+            <!-- Internship Role Status -->
+            <div class="info-row">
+              <div class="info-label">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                <span>Internship Task:</span>
+              </div>
+              <div class="info-value">
+                <span class="status-badge">Valentius Kryptix Web App Internship — Task WA-1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Technical Stack</span>
+          <h2 class="section-title">Skills &amp; Competencies</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Categorized overview of the programming languages, web standards, analytical tools, and developer utilities I actively practice.
+          </p>
+          <div class="skills-note">
+            <span class="pill-dot"></span>
+            <span>Editable draft skills — easy to customize or update as new competencies are mastered.</span>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming</h3>
+            </div>
+            <p class="category-desc">Core languages used for scripting, algorithmic problem solving, and data manipulation.</p>
+            <ul class="skills-list" aria-label="Programming Skills">
+              <li class="skill-badge">
+                <span class="skill-dot programming"></span>
+                <span class="skill-name">Python</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot programming"></span>
+                <span class="skill-name">JavaScript</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot programming"></span>
+                <span class="skill-name">SQL</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Category 2: Web Development -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Web Development</h3>
+            </div>
+            <p class="category-desc">Standards-based frontend foundations for clean, accessible, and responsive user interfaces.</p>
+            <ul class="skills-list" aria-label="Web Development Skills">
+              <li class="skill-badge">
+                <span class="skill-dot web"></span>
+                <span class="skill-name">HTML5</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot web"></span>
+                <span class="skill-name">CSS3</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot web"></span>
+                <span class="skill-name">Responsive Design</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Category 3: Data Analysis -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Data Analysis</h3>
+            </div>
+            <p class="category-desc">Techniques to clean raw datasets, uncover trends, and communicate findings visually.</p>
+            <ul class="skills-list" aria-label="Data Analysis Skills">
+              <li class="skill-badge">
+                <span class="skill-dot data"></span>
+                <span class="skill-name">Microsoft Excel</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot data"></span>
+                <span class="skill-name">Data Cleaning</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot data"></span>
+                <span class="skill-name">Data Visualization</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Category 4: Tools -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Tools</h3>
+            </div>
+            <p class="category-desc">Essential developer environment tools for version control, collaboration, and coding.</p>
+            <ul class="skills-list" aria-label="Developer Tools">
+              <li class="skill-badge">
+                <span class="skill-dot tools"></span>
+                <span class="skill-name">Git</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot tools"></span>
+                <span class="skill-name">GitHub</span>
+              </li>
+              <li class="skill-badge">
+                <span class="skill-dot tools"></span>
+                <span class="skill-name">VS Code</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Portfolio Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Explore showcase projects and proposed portfolio concepts. Use the category filters below to view by domain.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="projects-filter-wrapper">
+          <div class="filter-controls" role="toolbar" aria-label="Project category filter">
+            <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">
+              <span>All Projects</span>
+              <span class="filter-count" id="count-all">3</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="web" aria-pressed="false">
+              <span>Web Development</span>
+              <span class="filter-count" id="count-web">1</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="data" aria-pressed="false">
+              <span>Data Analysis</span>
+              <span class="filter-count" id="count-data">1</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="sql" aria-pressed="false">
+              <span>SQL</span>
+              <span class="filter-count" id="count-sql">1</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Projects Grid Container -->
+        <div class="projects-grid" id="projects-container">
+          <!-- PROJECT 1: Personal Portfolio Website -->
+          <article class="project-card" data-category="web">
+            <div class="card-accent-bar web-bar"></div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <span class="project-category-badge web-tag">Web Development</span>
+                <span class="project-status-tag live">Completed &amp; Live</span>
+              </div>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                A responsive personal portfolio showcasing my skills, projects, and professional profile.
+              </p>
+              
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <!-- Repository Link Placeholder -->
+                <a href="https://github.com/YOUR-GITHUB-USERNAME/syed-portfolio" target="_blank" rel="noopener noreferrer" class="project-link repo-link" title="Update with your GitHub repo URL">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>Repository (Placeholder)</span>
+                </a>
+
+                <!-- Live Demo Link (Current active website) -->
+                <a href="#home" class="project-link demo-link" title="Viewing the current live portfolio website">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Live View (This Site)</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Data Analysis Dashboard -->
+          <article class="project-card" data-category="data">
+            <div class="card-accent-bar data-bar"></div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <span class="project-category-badge data-tag">Data Analysis</span>
+                <span class="project-status-tag draft">Proposed Showcase</span>
+              </div>
+              <h3 class="project-title">Data Analysis Dashboard</h3>
+              <p class="project-description">
+                A data analysis project focused on exploring a dataset, identifying trends, and presenting useful insights through visualizations.
+              </p>
+              
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Data Visualization</span>
+              </div>
+
+              <div class="project-links">
+                <!-- Repository Link Placeholder -->
+                <a href="https://github.com/YOUR-GITHUB-USERNAME/data-analysis-dashboard" target="_blank" rel="noopener noreferrer" class="project-link repo-link" title="Update with your GitHub repo URL when created">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>Repository coming soon</span>
+                </a>
+
+                <!-- Honest Demo status: Not fabricated -->
+                <span class="project-demo-placeholder" title="Will be available once deployed">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                  <span>Demo in Progress</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: SQL Data Exploration -->
+          <article class="project-card" data-category="sql">
+            <div class="card-accent-bar sql-bar"></div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <span class="project-category-badge sql-tag">SQL</span>
+                <span class="project-status-tag draft">Proposed Showcase</span>
+              </div>
+              <h3 class="project-title">SQL Data Exploration</h3>
+              <p class="project-description">
+                A database exploration project demonstrating SQL queries, filtering, aggregation, joins, and extracting insights from structured data.
+              </p>
+              
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Database Queries</span>
+              </div>
+
+              <div class="project-links">
+                <!-- Repository Link Placeholder -->
+                <a href="https://github.com/YOUR-GITHUB-USERNAME/sql-data-exploration" target="_blank" rel="noopener noreferrer" class="project-link repo-link" title="Update with your GitHub repo URL when created">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>Repository coming soon</span>
+                </a>
+
+                <!-- Honest Demo status: Not fabricated -->
+                <span class="project-demo-placeholder" title="SQL scripts in progress">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                  <span>Queries in Review</span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Reach Out</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Have an opportunity, project idea, or just want to connect? Feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Info Details Card -->
+          <div class="contact-info-card">
+            <h3 class="contact-card-title">Direct Contact &amp; Profiles</h3>
+            <p class="contact-card-text">
+              I am actively seeking internship and entry-level opportunities in data analysis and web development. I'd love to hear from you.
+            </p>
+
+            <div class="contact-methods-list">
+              <!-- Email -->
+              <div class="contact-method-item">
+                <div class="method-icon-wrap" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">Email Address</span>
+                  <a href="mailto:aqdasssm@gmail.com" class="method-link">aqdasssm@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- GitHub Profile -->
+              <div class="contact-method-item">
+                <div class="method-icon-wrap" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">GitHub (Placeholder)</span>
+                  <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener noreferrer" class="method-link" title="Update with your GitHub handle">
+                    github.com/YOUR-GITHUB-USERNAME
+                  </a>
+                </div>
+              </div>
+
+              <!-- LinkedIn Profile -->
+              <div class="contact-method-item">
+                <div class="method-icon-wrap" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">LinkedIn (Placeholder)</span>
+                  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank" rel="noopener noreferrer" class="method-link" title="Update with your LinkedIn URL">
+                    linkedin.com/in/YOUR-LINKEDIN-USERNAME/
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mailto Direct CTA Button -->
+            <div class="contact-direct-action">
+              <a href="mailto:aqdasssm@gmail.com?subject=Opportunity%20Inquiry%20-%20Syed%20Aqdas" class="btn btn-primary btn-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Draft Email in Client</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form Interface -->
+          <div class="contact-form-card">
+            <h3 class="contact-card-title">Send a Message</h3>
+            <p class="contact-card-text">
+              Fill out the message form below or reach out via email.
+            </p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name <span class="required">*</span></label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Jane Doe" required autocomplete="name">
+                <span class="form-error" id="name-error">Please enter your name.</span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email <span class="required">*</span></label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. jane@example.com" required autocomplete="email">
+                <span class="form-error" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <!-- Subject Input -->
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject <span class="required">*</span></label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Project Collaboration" required>
+                <span class="form-error" id="subject-error">Please enter a subject.</span>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                <span class="form-error" id="message-error">Please enter your message.</span>
+              </div>
+
+              <!-- Form Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <!-- Live Feedback Message Area -->
+              <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+
+              <!-- Transparent Note regarding backend submission requirement -->
+              <div class="form-disclaimer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                <p>
+                  <strong>Note:</strong> This is a client-side interface demonstration. To receive direct form emails, connect a backend or third-party service like Formspree (instructions in README.md). Clicking "Draft Email in Client" above works immediately.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <!-- Footer Top Row -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo footer-logo" aria-label="Syed Aqdas Home">
+            <span class="logo-badge" aria-hidden="true">SA</span>
+            <span class="logo-text">Syed Aqdas</span>
+          </a>
+          <p class="footer-tagline">
+            Aspiring Data Analyst | Web Developer | Technology Enthusiast
+          </p>
+          <span class="footer-task-pill">Valentius Kryptix Internship — Task WA-1</span>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home" class="footer-nav-link">Home</a></li>
+            <li><a href="#about" class="footer-nav-link">About</a></li>
+            <li><a href="#skills" class="footer-nav-link">Skills</a></li>
+            <li><a href="#projects" class="footer-nav-link">Projects</a></li>
+            <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social & Direct Links -->
+        <div class="footer-social-col">
+          <h4 class="footer-col-title">Connect</h4>
+          <div class="footer-social-links">
+            <!-- GitHub Link -->
+            <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub (Placeholder)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn (Placeholder)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <!-- Email Direct Link -->
+            <a href="mailto:aqdasssm@gmail.com" class="social-icon-btn" aria-label="Send Email" title="Send Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+          <p class="footer-direct-email">aqdasssm@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Row -->
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> <strong>Syed Aqdas</strong>. Built for Valentius Kryptix Web App Internship WA-1.
+        </p>
+        <button id="back-to-top" class="back-to-top-btn" type="button" aria-label="Back to top of page">
+          <span>Top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
