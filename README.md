@@ -106,7 +106,7 @@ Per internship guidelines, placeholders have been cleanly highlighted so you can
 | `index.html` | About Section | `[Degree / Field of Study, University Name — Expected Year]` | Enter your degree name, university, and graduation year |
 | `index.html` | About Section | `[e.g., Advanced SQL Queries, Python for Data Science...]` | Enter your current learning focus |
 | `index.html` | About Section | `[City, Country / Open to Remote]` | Enter your current location |
-| `index.html` | Projects & Contact | `https://github.com/YOUR-GITHUB-USERNAME` | Replace `YOUR-GITHUB-USERNAME` with your real GitHub handle |
+| `index.html` | Projects & Contact | `https://github.com/syedaqdas` | Connected to your real GitHub profile |
 | `index.html` | Contact & Footer | `https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/` | Replace `YOUR-LINKEDIN-USERNAME` with your real LinkedIn handle |
 | `index.html` | Skills Section | Categorized skills | Add or remove draft skills to match your learning journey |
 
@@ -117,13 +117,13 @@ Per internship guidelines, placeholders have been cleanly highlighted so you can
 In the **Featured Projects** section (`index.html`), project links are configured as follows:
 
 1. **Project 1: Personal Portfolio Website**
-   - Repository: `https://github.com/YOUR-GITHUB-USERNAME/syed-portfolio`
+   - Repository: `https://github.com/syedaqdas/Valentius-Kryptix-Web-App-Internship`
    - Live View: Links to `#home` (this portfolio)
 2. **Project 2: Data Analysis Dashboard**
-   - Repository: `https://github.com/YOUR-GITHUB-USERNAME/data-analysis-dashboard`
+   - Repository: `https://github.com/syedaqdas/data-analysis-dashboard`
    - Status: Marked as *Proposed Showcase* with *"Repository coming soon"*
 3. **Project 3: SQL Data Exploration**
-   - Repository: `https://github.com/YOUR-GITHUB-USERNAME/sql-data-exploration`
+   - Repository: `https://github.com/syedaqdas/sql-data-exploration`
    - Status: Marked as *Proposed Showcase* with *"Repository coming soon"*
 
 *When you create repositories for Projects 2 and 3, simply replace the placeholder links and remove the "Repository coming soon" label.*
@@ -194,13 +194,12 @@ git commit -m "feat: complete Valentius Kryptix WA-1 portfolio website"
 6. Click **Create repository**.
 
 ### Step 3: Link and Push to GitHub
-Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username:
 ```bash
 # Set primary branch to main
 git branch -M main
 
 # Link remote repository
-git remote add origin https://github.com/YOUR-GITHUB-USERNAME/syed-portfolio.git
+git remote add origin https://github.com/syedaqdas/Valentius-Kryptix-Web-App-Internship.git
 
 # Push files to GitHub
 git push -u origin main
@@ -212,7 +211,7 @@ git push -u origin main
 
 To host your portfolio live on the web for free:
 
-1. Navigate to your repository on GitHub: `https://github.com/YOUR-GITHUB-USERNAME/syed-portfolio`.
+1. Navigate to your repository on GitHub: `https://github.com/syedaqdas/Valentius-Kryptix-Web-App-Internship`.
 2. Click **Settings** (tab at the top right of the repo).
 3. In the left sidebar, click **Pages** (under "Code and automation").
 4. Under **Build and deployment**:
@@ -222,7 +221,7 @@ To host your portfolio live on the web for free:
 5. Wait 1–2 minutes, then refresh the page.
 6. Your live portfolio URL will be shown at the top:
    ```text
-   https://YOUR-GITHUB-USERNAME.github.io/syed-portfolio/
+   https://syedaqdas.github.io/Valentius-Kryptix-Web-App-Internship/
    ```
 
 ---
@@ -244,10 +243,10 @@ Before submitting your project link to the internship portal, verify each of the
 - [x] Accessible dark theme default with clean light theme toggle
 - [x] Zero horizontal overflow at 375px, 768px, and 1280px
 - [ ] Personalize placeholders in `index.html` with your actual details
-- [ ] Push to public GitHub repository `syed-portfolio`
+- [x] Push to public GitHub repository `Valentius-Kryptix-Web-App-Internship`
 - [ ] Copy the public GitHub repository URL into the Valentius Kryptix WA-1 submission field:
   ```text
-  https://github.com/YOUR-GITHUB-USERNAME/syed-portfolio
+  https://github.com/syedaqdas/Valentius-Kryptix-Web-App-Internship
   ```
 
 ---
